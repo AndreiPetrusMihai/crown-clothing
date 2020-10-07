@@ -1,7 +1,6 @@
 import React from 'react';
 import {Switch,Route,Redirect} from 'react-router-dom';
 import './App.css';
-import './pages/homepage/homepage.styles.scss';
 import {connect} from 'react-redux';
 import {createStructuredSelector} from 'reselect';
 import HomePage from './pages/homepage/homepage.component';

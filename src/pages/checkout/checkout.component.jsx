@@ -51,7 +51,7 @@ const CheckoutPage = ({cartItems,total}) => (
 
 		</div>
 
-		<StripeCheckoutButton price={total} class='button'/>
+		<StripeCheckoutButton price={total}/>
 	</div>
 );
 
